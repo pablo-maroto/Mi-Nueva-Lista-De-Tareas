@@ -1,0 +1,25 @@
+.inputStyle{
+    color: rgba(1, 4, 176, 0.803);
+    border-color: rgb(155, 176, 36);
+   
+}
+
+.buttonStyle{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: small;
+    position: relative;
+    border: 1px solid rgba(59,58,0.46);
+    border-radius: 6px;
+    box-shadow: -8px 4px 8px gray;
+    top: 0;
+    transition: top ease 0.2s;
+    color: white;
+    cursor: pointer;
+    background-color: #99ccff;
+}
+
+.buttonStyle:hover{
+    top: -3px;
+}
+
